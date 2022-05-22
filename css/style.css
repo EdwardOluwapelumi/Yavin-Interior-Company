@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#home-section{
+    color:#191e47 !important;
+    background:url( https://htmlrev.com/preview/yavin/images/decoration-star.svg ) repeat;
+    background-position: fixed;
+    margin-top:3rem;
+}
+
+#home-section .btn-primary:hover{
+    background-color: transparent !important;
+    color:#4555d2 !important;
+}
+
+.btn-outline-secondary{
+    border: 1px solid #cc2973 !important;
+    color:#cc2973 !important;
+}
+
+.btn-outline-secondary:hover{
+    background-color:#cc2973 !important;
+    color: #fff !important;
+    border: 1px #cc2973 !important;
+}
+
+#count-section,h2{
+    color: #191e47 !important;
+}
+
+#offer-section,#quote-section,#contact-section{
+    background: url( https://htmlrev.com/preview/yavin/images/decoration-star.svg ) no-repeat;
+    background-position: fixed;
+}
+
+#offer-section ul li{
+    list-style: none;
+}
+
+#offer-section i{
+    color: #cc2973;
+}
+
+#footer{
+    background-color: #191e47;
+}
+
+#footer i:hover{
+    color: #cc2973;
+}
